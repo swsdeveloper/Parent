@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
+#import "LocationTracker.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *parentUserIdTextField;
+
+@property (weak, nonatomic) IBOutlet UILabel *parentLatitudeLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *parentLongitudeLabel;
+
+@property (strong, nonatomic) LocationTracker *myLocationTracker;
 
 
 @end

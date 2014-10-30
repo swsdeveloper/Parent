@@ -14,6 +14,7 @@
 		0AA843F81A01A6B2006AB813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA843F71A01A6B2006AB813 /* Images.xcassets */; };
 		0AA843FB1A01A6B2006AB813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA843F91A01A6B2006AB813 /* LaunchScreen.xib */; };
 		0AA844071A01A6B2006AB813 /* ParentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA844061A01A6B2006AB813 /* ParentTests.m */; };
+		0AA844131A01AF35006AB813 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA844121A01AF35006AB813 /* LocationTracker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		0AA844001A01A6B2006AB813 /* ParentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA844051A01A6B2006AB813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AA844061A01A6B2006AB813 /* ParentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentTests.m; sourceTree = "<group>"; };
+		0AA844101A01A6C0006AB813 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "../../../Common Files/Constants.h"; sourceTree = "<group>"; };
+		0AA844111A01AF35006AB813 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		0AA844121A01AF35006AB813 /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,9 @@
 		0AA843E91A01A6B2006AB813 /* Parent */ = {
 			isa = PBXGroup;
 			children = (
+				0AA844101A01A6C0006AB813 /* Constants.h */,
+				0AA844111A01AF35006AB813 /* LocationTracker.h */,
+				0AA844121A01AF35006AB813 /* LocationTracker.m */,
 				0AA843EE1A01A6B2006AB813 /* AppDelegate.h */,
 				0AA843EF1A01A6B2006AB813 /* AppDelegate.m */,
 				0AA843F11A01A6B2006AB813 /* ViewController.h */,
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA843F31A01A6B2006AB813 /* ViewController.m in Sources */,
+				0AA844131A01AF35006AB813 /* LocationTracker.m in Sources */,
 				0AA843F01A01A6B2006AB813 /* AppDelegate.m in Sources */,
 				0AA843ED1A01A6B2006AB813 /* main.m in Sources */,
 			);
